@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee Listing</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo"><a href="index.html">Shubham's Company</a></div>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search employees...">
+    </div>
+    <div class="nav-menu">
+      <button class="hamburger">☰</button>
+      <nav>
+        <a href="registration.html">Employee Registration</a>
+        <a href="listing.html">Employee Listing</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1>Employee Listing</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Position</th>
+          <th>About</th>
+          <th>Joining Date</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="employeeTableBody">
+      </tbody>
+    </table>
+    <div id="pagination"></div>
+  </main>
+
+  <footer class="footer">
+    <p>2024 &copy; Shubham Tailor</p>
+  </footer>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
